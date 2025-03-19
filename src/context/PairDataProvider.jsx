@@ -3,7 +3,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 import { getReadOnlyProvider } from "../utils";
 import UNISWAP_V2_PAIR_ABI from "../ABI/UniswapV2Pair.json";
 import ERC20_ABI from "../ABI/ERC20.json";
-import MULTICALL_ABI from "../ABI/Multicall2.json";
+import MULTICALL_ABI from "../ABI/multicall2.json";
 
 
 const MULTICALL_ADDRESS = "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696"; // Ethereum Mainnet Multicall2
